@@ -25,10 +25,10 @@
 `pytest -v`
 
 Установка зависимостей
-`$ pip install -r requirements.txt`
+`pip install -r requirements.txt`
 
 Запуск автотестов и создание HTML-отчета о покрытии
-`$ pytest --cov=praktikum --cov-report=html`
+`pytest --cov=praktikum --cov-report=html`
 
 Allure-отчет о тестировании в формате веб-страницы
 `allure serve allure_results`
